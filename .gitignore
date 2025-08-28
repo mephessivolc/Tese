@@ -1,0 +1,28 @@
+# Arquivos temporários do LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+
+# Arquivos gerados pelo latexmk
+*.xdv
+*.bcf
+*.run.xml
+
+# PDFs gerados (se quiser ignorar o PDF final também, descomente a linha abaixo)
+# *.pdf
