@@ -1,0 +1,10 @@
+
+services:
+  latex:
+    build: .
+    container_name: latex-env
+    tty: true
+    stdin_open: true
+    working_dir: /workspace
+    volumes:
+      - ./682bbf49c7c58db96ed58bbd:/workspace
