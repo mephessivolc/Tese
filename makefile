@@ -97,10 +97,16 @@ pull_overleaf:
 # Deploy Github
 # =======================
 
-deploy_github: build clean_pdf push_github
+deploy_github: build clean push_github
 
 # =======================
 # Deploy Overleaf
 # =======================
 
 deploy_overleaf: build clean_pdf push_overleaf
+
+# =======================
+# Deploy All
+# =======================
+
+deploy_all: build clean_pdf push_github push_overleaf
